@@ -16,7 +16,8 @@ The goal of the project is to demonstrate the abilities of a model-free reinforc
 - Initialize action-value function q' with random weights w
 - Initialize target action-value weights w' <-- w
 - For the episode e<-- 1 to M:
--  Initial input frame X1
+- Item 2
+  - Sub Item 1
 
 
 ![](https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif)
