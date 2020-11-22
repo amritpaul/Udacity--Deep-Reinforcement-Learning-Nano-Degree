@@ -19,7 +19,15 @@ The goal of the project is to demonstrate the abilities of a model-free reinforc
   - Initial input frame X1
   - Prepare initial state: S <-- Z(<X1>)
   - For time step t <-- 1 to T:
-    - Choose Action A
+    - Choose Action A from State S using policy pi <-- epsilon-greedy(q'(S,A,w))
+    - Take action A, observer reward R and next input frame X2
+    - Prepare next state S' <-- Z(<X-1,X0,X1,X2>)
+    - Store expereince tuple (S,A,R,S') in replay memory D
+    - S <-- S'
+    - Obtain random minibatch of tuples (Sj,Aj,Rj,Sj+1) from D
+    - Set target Yj = Rj + gamma*maxa(q'(Sj+1,Aj,w'))
+    - Update deltaW = alpha * (Yj - q'(Sj,Aj,w))*deltaW(q'(Sj,Aj,w))
+    - Every C steps, reset w' <-- w
 
 
 ![](https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif)
