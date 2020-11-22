@@ -15,9 +15,11 @@ The goal of the project is to demonstrate the abilities of a model-free reinforc
 - Initialize replay memory D with capacity N
 - Initialize action-value function q' with random weights w
 - Initialize target action-value weights w' <-- w
-- For the episode e<-- 1 to M:
-- Item 2
-  - Sub Item 1
+- For the episode e <-- 1 to M:
+  - Initial input frame X1
+  - Prepare initial state: S <-- Z(<X1>)
+  - For time step t <-- 1 to T:
+    - Choose Action A
 
 
 ![](https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif)
