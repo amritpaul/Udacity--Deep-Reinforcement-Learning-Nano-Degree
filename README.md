@@ -34,3 +34,10 @@ The goal of the project is to demonstrate the abilities of a model-free reinforc
 
 ## Project 2
 The goal of the project is to demonstrate the abilities of a model-free reinforcement learning algorithm, particularly Deep Deterministic Policy Gradients (DDPG) Algorithm, which consists of two neural networks namely Actor network and Critic network. The project uses Unity environment, a game development framework and Pytorch, a deep learning framework. The algorithm was trained on 20 agents, with each agent consisting of 33 states and 4 actions.
+
+![](https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif)
+
+## Project 3
+The goal of the project is to demonstrate the abilities of a model-free reinforcement learning algorithm, particularly Multi-Agent Deep Deterministic Policy Gradients (MADDPG) Algorithm, which consists of four neural networks for each of the agents, namely Actor and Critic neural networks. The project uses Unity environment, a game development framework and Pytorch, a deep learning framework. The algorithm was trained on 2 agents, with each agent consisting of 24 states and 2 action/observation spaces.
+
+![](https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif)
