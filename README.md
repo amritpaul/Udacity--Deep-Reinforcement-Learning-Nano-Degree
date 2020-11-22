@@ -8,7 +8,7 @@ This repository contains all the project codes related to Udacity Deep Reinforce
 
 ![Trained Agents][image1]
 
-## Project 1
+## Project 1 - Navigation Project
 The goal of the project is to demonstrate the abilities of a model-free reinforcement learning algorithm, particularly Deep Q-Learning. The project uses Unity environment, a game development framework and Pytorch, a deep learning framework, to train an agent to solve an environment consisting of 37 continuous states and 4 actions. The goal of the agent is to maximize expected cumulative reward by collecting only yellow banana's (+1 reward) and avoiding blue banana's (-1 reward).
 
 ### Deep Q-Learning Algorithm
@@ -32,12 +32,14 @@ The goal of the project is to demonstrate the abilities of a model-free reinforc
 #### More details can be found inside P1_navigation project.
 ![](https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif)
 
-## Project 2
+## Project 2 - Continuous Control Project
 The goal of the project is to demonstrate the abilities of a model-free reinforcement learning algorithm, particularly Deep Deterministic Policy Gradients (DDPG) Algorithm, which consists of two neural networks namely Actor network and Critic network. The project uses Unity environment, a game development framework and Pytorch, a deep learning framework. The algorithm was trained on 20 agents, with each agent consisting of 33 states and 4 actions.
 
+#### More details can be found inside P2_continuous-control project.
 ![](https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif)
 
-## Project 3
+## Project 3 - Collaboration Competition Project
 The goal of the project is to demonstrate the abilities of a model-free reinforcement learning algorithm, particularly Multi-Agent Deep Deterministic Policy Gradients (MADDPG) Algorithm, which consists of four neural networks for each of the agents, namely Actor and Critic neural networks. The project uses Unity environment, a game development framework and Pytorch, a deep learning framework. The algorithm was trained on 2 agents, with each agent consisting of 24 states and 2 action/observation spaces.
 
+#### More details can be found inside P3_collaboration-competition project.
 ![](https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif)
