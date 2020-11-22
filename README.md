@@ -29,7 +29,7 @@ The goal of the project is to demonstrate the abilities of a model-free reinforc
     - Update deltaW = alpha * (Yj - q'(Sj,Aj,w))*deltaW(q'(Sj,Aj,w))
     - Every C steps, reset w' <-- w
 
-
+#### More details can be found inside P1_navigation project.
 ![](https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif)
 
 ## Project 2
